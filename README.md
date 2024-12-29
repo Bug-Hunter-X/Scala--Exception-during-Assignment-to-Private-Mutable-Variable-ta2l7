@@ -1,0 +1,3 @@
+# Scala: Exception Handling in Setter Methods
+
+This example showcases a common issue in Scala involving exception handling within setter methods for private mutable variables.  The `MyClass` class demonstrates a setter for the `age` property that enforces a constraint: age must be non-negative.  If an attempt is made to set a negative age, the setter throws an `IllegalArgumentException`. This example highlights the importance of robust exception handling in setter methods to prevent unexpected behavior or crashes.
